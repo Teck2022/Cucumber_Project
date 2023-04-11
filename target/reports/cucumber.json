@@ -1,0 +1,146 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-11T00:13:07.611Z",
+        "line": 5,
+        "name": "Validate and change web page background color",
+        "description": "",
+        "id": "set-skyblue-background-button;validate-and-change-web-page-background-color",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2078000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Sky Blue Background button exists or not",
+            "match": {
+              "location": "stepDefinitions.Steps.sky_Blue_Background_button_exists_or_not()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the button",
+            "match": {
+              "location": "stepDefinitions.Steps.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The background color will change to sky blue",
+            "match": {
+              "location": "stepDefinitions.Steps.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BackgroundFeature"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@OtherScenario1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-11T00:13:09.813Z",
+        "line": 11,
+        "name": "Validate and change web page background color",
+        "description": "",
+        "id": "set-skyblue-background-button;validate-and-change-web-page-background-color",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "White Background button exists or not",
+            "match": {
+              "location": "stepDefinitions.Steps.white_Background_button_exists_or_not()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on the White Background button",
+            "match": {
+              "location": "stepDefinitions.Steps.i_click_on_the_White_Background_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1668000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The background color will change to white",
+            "match": {
+              "location": "stepDefinitions.Steps.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BackgroundFeature"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@OtherScenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Set SkyBlue Background button",
+    "description": "",
+    "id": "set-skyblue-background-button",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/techfios.feature",
+    "tags": [
+      {
+        "name": "@BackgroundFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 20
+        }
+      }
+    ]
+  }
+]
